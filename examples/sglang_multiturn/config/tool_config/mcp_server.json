@@ -1,8 +1,8 @@
 {
     "mcpServers": {
-        "Tavily Expert": {
-            "url": "your_tavily_expert_url",
-            "auth_token": "your_tavily_api_token"
+        "SSE Server": {
+            "url": "https://qbmanusmcp.woa.com/serp/sse",
+            "auth_token": "your_server_api_token"
         }
     }
 }
