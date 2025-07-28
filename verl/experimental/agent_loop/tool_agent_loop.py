@@ -51,6 +51,15 @@ class ToolAgentLoop(AgentLoopBase):
         cls.tool_parser = ToolParser.get_tool_parser(config.actor_rollout_ref.rollout.multi_turn.format, cls.tokenizer)
         print(f"Initialized tools: {cls.tools}")
 
+
+        # print(f'{tool_config_path=}')
+        # print(f'{tool_list=}')
+        # print(f'{cls.tool_schemas=}')
+        # print(f'{cls.tool_parser=}')
+        #
+        # while True:
+        #     pass
+
         cls.prompt_length = config.actor_rollout_ref.rollout.prompt_length
         cls.response_length = config.actor_rollout_ref.rollout.response_length
         cls.system_prompt = tokenizer.apply_chat_template([{}], add_generation_prompt=False, tokenize=True)

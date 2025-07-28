@@ -30,6 +30,11 @@ class MCPSearchTool(MCPBaseTool):
         super().__init__(config, tool_schema)
 
     def _parse_tool_result(self, content: list) -> tuple[str, dict]:
+
+        print(content)
+        while True:
+            pass
+
         res = ""
         res_cnt = 0
         query_list = []
