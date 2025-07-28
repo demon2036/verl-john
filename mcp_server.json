@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+        "SSE Server": {
+            "url": "https://qbmanusmcp.woa.com/serp/sse",
+            "auth_token": "your_server_api_token"
+        }
+    }
+}
