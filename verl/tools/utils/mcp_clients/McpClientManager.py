@@ -38,7 +38,7 @@ class MCPClientManager:
         """Initialize the MCP Client Manager and start all clients"""
         result = self._load_config(config_path)
         print(result)
-        whiwhile True:
+        while True:
             pass
 
         servers = result[self.rootServerName]
