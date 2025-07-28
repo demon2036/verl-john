@@ -1,10 +1,11 @@
 tools:
   - class_name: verl.tools.mcp_search_tool.MCPSearchTool
     config:
-      rate_limit: 10
-      timeout: 30
+      rate_limit: 120
+      timeout: 120
       type: mcp
     mcp:
       mcp_servers_config_path: ./mcp_server.json
-      # optional - if empty, will use all available tools from MCP server
-      tool_selected_list: []
+      # optional
+      tool_selected_list: 
+        - tavily_search_tool
