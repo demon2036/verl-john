@@ -31,6 +31,9 @@ class MCPSearchTool(MCPBaseTool):
 
     def _parse_tool_result(self, content: list) -> tuple[str, dict]:
 
+
+
+
         print(content)
         while True:
             pass
